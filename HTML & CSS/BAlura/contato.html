@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/produtos.css">
+    <link rel="stylesheet" href="style/contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <div class="caixa">
+        <h1><img src="src/logo.png" alt=""></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <main>
+        <form>
+            <label for="nosb">Nome e sobrenome</label>
+            <input type="text" id="nosb" class="ippadrao" required placeholder="Fulano Silva">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="ippadrao" required placeholder="fulano@email.com">
+
+            <label for="tel">Telefone</label>
+            <input type="tel" id="tel" class="ippadrao" required placeholder="(xx) 1234-5678">
+
+            <label for="ms">Mensagem</label>
+            <textarea name="" id="ms" cols="60" rows="10" class="ippadrao" required></textarea>
+
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+
+                <label for="em"><input type="radio" value="email" name="contato" id="em">Email</label>
+
+                <label for="Telefone"><input type="radio" value="telefone" name="contato" id="Telefone">Telefone</label>
+
+                <label for="zap"><input type="radio" value="whatsapp" name="contato" id="zap" checked>Whatsapp</label>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual horario prefere ser antendido?</legend>
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </fieldset>
+
+            <label> <input type="checkbox" class="che" checked> Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Enviar formulario" class="env">
+
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h as 20h</td>
+                </tr>
+                <tr>
+                    <td>Quartas</td>
+                    <td>8h as 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta   </td>
+                    <td>8h as 20h</td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </main>
+
+
+    <footer>
+    <img src="src/logo-branco.png" alt="logo">
+    <p class="copy">&copy; Copyright Balura - 2019</p>
+
+    </footer>
+</body>
+</html>
