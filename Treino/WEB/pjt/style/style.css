@@ -37,6 +37,7 @@ main{
     align-content: center;
     align-items: center;
     margin: 2rem;
+    height: 100vh;
 }
 
 #Descrição{
